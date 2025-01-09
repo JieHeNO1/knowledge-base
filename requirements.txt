@@ -20,8 +20,6 @@ chromadb
 rapidocr-onnxruntime
 pymupdf
 unstructured
-chromadb
-langchain
 markdown
 spark-ai-python
 erniebot
