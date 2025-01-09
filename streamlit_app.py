@@ -8,13 +8,13 @@ from zhipuai_embedding import ZhipuAIEmbeddings
 from langchain.vectorstores.chroma import Chroma
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv())    # read local .env file
+# from dotenv import load_dotenv, find_dotenv
+# _ = load_dotenv(find_dotenv())    # read local .env file
 
 
 #export OPENAI_API_KEY=
 #os.environ["OPENAI_API_BASE"] = 'https://api.chatgptid.net/v1'
-zhipuai_api_key = "83028078a3e842328c44c2f967645844.EiSeV3wTXgG1ZTBn"
+# zhipuai_api_key = "83028078a3e842328c44c2f967645844.EiSeV3wTXgG1ZTBn"
 
 
 def generate_response(input_text, openai_api_key):
