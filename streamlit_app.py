@@ -75,7 +75,7 @@ def get_qa_chain(question:str,openai_api_key:str):
 
 # Streamlit 应用程序界面
 def main():
-    st.title('🦜🔗 动手学大模型应用开发')
+    st.title('❤ 张会会女士专属空间 ❀')
     openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
     # 添加一个选择按钮来选择不同的模型
